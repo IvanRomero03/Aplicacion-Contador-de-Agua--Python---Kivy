@@ -5,8 +5,7 @@ from kivy.uix.label import Label
 from kivy.uix.textinput import TextInput
 import kivy
 
-# python -m virtualenv kivy_venv
-# kivy_venv\Scripts\activate
+
 
 kivy.require('2.0.0')
 
