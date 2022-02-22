@@ -7,3 +7,4 @@ Primero:
 Para q jale chilo en un venv: (ESTO EN EL CMD)
 - python -m virtualenv kivy_venv
 - kivy_venv\Scripts\activate
+- pip install -r requirements.txt
