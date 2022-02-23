@@ -58,17 +58,18 @@ def desplegarTabla(registros):
     for i in registros:
         print(i)
 
-DB = BaseDeDatos()
-desplegarTabla(DB.verUsuarios())
-print('usuarios')
+def demostracion():
+    DB = BaseDeDatos()
+    desplegarTabla(DB.verUsuarios())
+    print('usuarios')
 
-desplegarTabla(DB.verRegistros())
-print('registros')
+    desplegarTabla(DB.verRegistros())
+    print('registros')
 
-desplegarTabla(DB.selectRegistrosUsuario(1))
-print('registros usuario')
+    desplegarTabla(DB.selectRegistrosUsuario(1))
+    print('registros usuario')
 
-desplegarTabla(DB.selectRegistroUsuarioFecha(1, datetime(2020, 1, 1, 0, 0, 0), datetime.now()))
-print('registros usuario fecha')
+    desplegarTabla(DB.selectRegistroUsuarioFecha(1, datetime(2020, 1, 1, 0, 0, 0), datetime.now()))
+    print('registros usuario fecha')
 
-DB.cerrar()
+    DB.cerrar()
