@@ -71,5 +71,6 @@ def demostracion():
 
     desplegarTabla(DB.selectRegistroUsuarioFecha(1, datetime(2020, 1, 1, 0, 0, 0), datetime.now()))
     print('registros usuario fecha')
-
+    print(input('Presione enter para continuar...'))
     DB.cerrar()
+    
