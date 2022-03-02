@@ -22,6 +22,12 @@ class BaseDeDatos:
         self.cursor.execute("SELECT * FROM usuarios;")
         usuarios = self.cursor.fetchall()
         return usuarios
+    
+    def verUsuario(self, idUsuario):
+        query = 'SELECT * FROM usuarios WHERE idUsuario = '+ str(idUsuario) +';'
+        self.cursor.execute(query)
+        usuario = self.cursor.fetchall()
+        return usuario
 
     def verRegistros(self):
         self.cursor.execute("SELECT * FROM RegistrosAgua;")
