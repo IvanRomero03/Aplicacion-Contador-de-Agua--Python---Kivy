@@ -2,3 +2,4 @@ kivy == 2.0.0
 virtualenv
 mysql-connector-python
 boto3
+flask
