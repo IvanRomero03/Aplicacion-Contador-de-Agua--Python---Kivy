@@ -30,7 +30,7 @@ The proyect is divided in 3 main parts, **Visual Interfaze**, **web actuator**, 
 ### Visual Interfaze
 This part of the proyect was made with Kivy and a simple plot with MatPlotLib. It's a simple interfaze just containing the number of times that someone has drinked water in the day and a histogram of frecuencies with time of the same information
 ### Web Actuator
-This part of the proyect was made with Flask. The web actuator was thinked to be used with an NFC, thanks to overwriting the sticker used. this part is contained in the ![Web Actuator repositorie](https://github.com/IvanRomero03/ActuadorWeb.git) 
+This part of the proyect was made with Flask. The web actuator was thinked to be used with an NFC, thanks to overwriting the sticker used. this part is contained in the [Web Actuator repositorie](https://github.com/IvanRomero03/ActuadorWeb.git) 
 ### AWS/RDS MySQL Data Base
 The data base for this proyect was hosted using the AWS/RDS Hosting with MySQL. The setup for the data base used was made thanks to MySQL workbench, and lastly, the API made for this database was made with the Python driver for MySQL (MySQL Connector/Python). This API is held in *ConectorDB.py*
 
